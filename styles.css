@@ -1812,20 +1812,25 @@ nav{
         border-radius: 5px;
     }
 
+    .simo-a-propos-découverte button:hover{
+        opacity: 0;
+    }
+
 
     .footer-help h3 a{
         font-size: 2rem;
         position: relative;
-        top: 10%;
+        top: 50%;
         left: -4%;
-        color: red;
+        color: rgb(14, 181, 189);
         
     }
 
     .footer-help p{
         width: 100vw;
+        top: 10px;
         font-size: 14px;
-        line-height: 25px;
+        line-height: 20px;
         position: relative;
         left: -4%;
         border: 0;
@@ -1884,6 +1889,10 @@ nav{
         margin: 10px 0;
         font-size: 20px;
         display: block;
+    }
+
+    .logo-contacts-container{
+        display: none;
     }
 
 
